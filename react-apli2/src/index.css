@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .link-hover{
+        @apply px-4 py-1 duration-200 rounded-full hover:bg-white hover:text-violet-700;
+    }
+    .link-active{
+        @apply px-4 py-1 duration-200 rounded-full bg-white text-violet-700;
+    }
+}

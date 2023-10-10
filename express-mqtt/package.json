@@ -1,0 +1,17 @@
+{
+  "name": "express-mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "mongodb": "^6.1.0",
+    "mqtt": "^5.0.5"
+  }
+}
